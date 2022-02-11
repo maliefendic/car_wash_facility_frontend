@@ -1,0 +1,53 @@
+.Card {
+ width: 300px;
+ overflow: hidden;
+ box-shadow: 0px 0px 15px -5px;
+ height: 300;
+ transition: 0.5s;
+ margin: 10px;
+}
+.Card:hover{
+    transform: scale(1.1);
+    box-shadow:  0px 0px 15px 0px; 
+}
+.Name{
+display: flex;
+justify-content: center;
+}
+.Content{
+  margin: 1rem;
+  margin-top: 0.3rem;
+
+}
+.Content h3 p {
+ margin: 0;
+ padding: 0;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+
+}
+.Buy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.Button button{
+    padding: 0;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.3;
+}
+
+
+.Button button:hover{
+   text-transform: uppercase;
+   background: rgba(27, 156, 253, 0.1);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+

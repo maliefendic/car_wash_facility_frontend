@@ -1,0 +1,14 @@
+.Steps{
+    display: flex;
+
+}
+.DescriptionSteps{
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.Cost{
+    display: flex; 
+    flex-direction: row-reverse;
+}

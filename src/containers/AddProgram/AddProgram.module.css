@@ -1,0 +1,35 @@
+.AddUser {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+
+  .CheckBox{
+    margin: -5px auto;
+     text-align: justify;
+   float: left;
+   line-height: 20px;
+   margin-right: 50px;
+  }
+  .Description{
+    display: flex;
+   margin-left: 50px;
+    
+  }
+  
+  .Button{
+  margin-top: 50;
+    
+  }
+  
+  @media (min-width: 600px){
+    .AddUser {
+      width: 500px;
+    }
+  }
+  

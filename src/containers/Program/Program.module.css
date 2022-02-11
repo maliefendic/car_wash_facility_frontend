@@ -1,0 +1,8 @@
+.Program {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, max(200px,350px));
+    justify-content: center;
+    margin: 10;
+    object-fit: contain;
+  }
+  
